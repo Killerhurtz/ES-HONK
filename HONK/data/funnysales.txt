@@ -5,6 +5,7 @@ outfitter "Clown Outfits"
 	"Party Rockets"
 	"Party Rocket Missile"
 	"A Conscious Decision"
+	"Clown Engines"
 
 shipyard "Clown Ships"
 	"Clown Car"
