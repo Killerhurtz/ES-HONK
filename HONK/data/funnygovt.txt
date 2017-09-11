@@ -1,0 +1,27 @@
+government "Clowns"
+	swizzle 1
+	color .06 .68 0
+	
+	"player reputation" 1
+	"attitude toward"
+		"Merchant" .7
+		"Militia" -.3
+		"Pirate" -.9
+		"Neutral" .1
+	"bribe" .1
+	"friendly hail" "clowns"
+	"hostile hail" "clowns angry"
+	raid "clownsraid"
+	
+	
+phrase "clowns"
+	word
+		"HONK"
+		
+phrase "clownsangry"
+	word
+		"HONK HONK"
+		
+phrase "clownsraid"
+	word
+		"SQUEEK"

@@ -1,0 +1,84 @@
+system Durax
+	pos -59 -90
+	government Clowns
+	habitable 1080
+	belt 1287
+	link Alcyone
+	asteroids "small rock" 16 8.1744
+	asteroids "medium rock" 4 5.304
+	asteroids "large rock" 6 6.6768
+	asteroids "small metal" 1 9.1728
+	asteroids "medium metal" 11 7.8624
+	asteroids "large metal" 1 8.6736
+	minables lead 9 12.9774
+	trade Clothing 381
+	trade Electronics 747
+	trade Equipment 714
+	trade Food 252
+	trade "Heavy Metals" 923
+	trade Industrial 777
+	trade "Luxury Goods" 1128
+	trade Medical 791
+	trade Metal 329
+	trade Plastic 372
+	fleet "Small Core Pirates" 600
+	fleet "Large Core Pirates" 900
+	fleet "Large Syndicate" 2500
+	fleet "Korath Raid" 5000
+	fleet "Small Clown Fleet" 400
+	fleet "Big Clown Fleet" 700
+	object
+		sprite star/g0-old
+		period 10
+	object
+		sprite planet/rock16
+		distance 206.84
+		period 36.2076
+	object
+		sprite planet/gas15
+		distance 951.09
+		period 357.01
+		object
+			sprite planet/lava2
+			distance 215
+			period 15.5389
+		object
+			sprite planet/mercury
+			distance 357
+			period 33.2479
+	object
+		sprite planet/ice8
+		distance 1740.09
+		period 883.498
+	object
+		sprite planet/gas2
+		distance 2530.73
+		period 1549.59
+		object
+			sprite planet/lava0
+			distance 218
+			period 14.3055
+		object
+			sprite planet/tethys
+			distance 351
+			period 29.2266
+		object "Zavatta Station"
+			sprite planet/station2
+			distance 253
+			period 12.546
+			
+			
+planet "Zavatta Station"
+	attributes frontier
+	landscape land/space6
+	music ambient/clowns
+	description `At first, Zavatta Station looks like any old, almost abandoned station that lay in almost ruins. The docking port and fueling station are still functional, but that's all that can be said... That is, until you hear squeaking. Map says there's an outfitter and spaceport, but...`
+	spaceport `The spaceport is bustling. Absolutely bustling. With the sound of bike horns and squeaking. There's clowns everywhere. Some of them seem to be working on cars. Except one of the cars just took off. You're not sure how. Best not to question anything here.`
+	shipyard "Clown Ships"
+	outfitter "Clown Outfits"
+	"required reputation" 100
+	bribe 0.05
+	security 0.9
+	tribute 2700
+		threshold 5500
+		fleet "Clown Death Fleet" 2
