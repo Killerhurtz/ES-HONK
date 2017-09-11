@@ -108,7 +108,7 @@ outfit "A Conscious Decision"
 	"mass" 1.4
 	"outfit space" -5
 	"Party Rocket capacity" 100
-	ammo "Meteor Missile"
+	ammo "Party Rocket Missile"
 	description "Despite your best instincts, you make a conscious decision to pack MORE loosely stored explosive devices manufactured by clowns aboard your ship. Because that will end well."
 
 outfit "Party Rockets"
