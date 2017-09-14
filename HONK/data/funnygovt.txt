@@ -17,6 +17,7 @@ government "Clowns"
 phrase "clowns"
 	word
 		"HONK"
+		"ZONK"
 		
 phrase "clownsangry"
 	word
